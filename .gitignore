@@ -2,3 +2,8 @@
 .classpath
 .settings/org.eclipse.core.resources.prefs
 test-output/
+.settings/org.eclipse.jdt.core.prefs
+target/*
+target/*
+		
+
