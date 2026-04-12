@@ -1,14 +1,14 @@
-package pages;
+package tests;
 
 import com.microsoft.playwright.Page;
 import com.microsoft.playwright.options.AriaRole;
 import static com.microsoft.playwright.assertions.PlaywrightAssertions.assertThat;
 
-public class DashboardPageObject {
+public class Reusable4 {
 
 	private Page page;
 	
-	public DashboardPageObject(Page page) {
+	public Reusable4(Page page) {
 		this.page=page;
 	}
 	

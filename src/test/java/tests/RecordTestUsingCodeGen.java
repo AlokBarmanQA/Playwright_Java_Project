@@ -8,7 +8,7 @@ import com.microsoft.playwright.Playwright;
 import com.microsoft.playwright.options.AriaRole;
 import static com.microsoft.playwright.assertions.PlaywrightAssertions.assertThat;
 
-public class RecordTest {
+public class RecordTestUsingCodeGen {
 
 	public static void main(String[] args) {
 		try (Playwright playwright = Playwright.create()) {

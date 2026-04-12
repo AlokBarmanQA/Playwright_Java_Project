@@ -1,4 +1,4 @@
-package base;
+package tests;
 
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
@@ -8,7 +8,7 @@ import com.microsoft.playwright.BrowserType;
 import com.microsoft.playwright.Page;
 import com.microsoft.playwright.Playwright;
 
-public class BaseTest {
+public class Reusable3 {
 	protected Playwright playwright;
 	protected Browser browser;
 	protected Page page;
